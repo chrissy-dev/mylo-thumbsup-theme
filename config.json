@@ -1,0 +1,11 @@
+{
+  "input": "./source",
+  "output": "./dist",
+  "title": "Mylo Theme",
+  "thumb-size": 240,
+  "large-size": 1920,
+  "google-analytics": "UA-999999-9",
+  "theme-path": "./themes/mylo",
+  "usage-stats": false,
+  "cleanup": true
+}
