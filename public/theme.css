@@ -10,11 +10,11 @@
 }
 @font-face {
   font-family: lg;
-  src: url(/public/fonts/lg.eot?n1z373);
-  src: url(/public/fonts/lg.eot?#iefixn1z373) format('embedded-opentype'),
-    url(/public/fonts/lg.woff?n1z373) format('woff'),
-    url(/public/fonts/lg.ttf?n1z373) format('truetype'),
-    url(/public/fonts/lg.svg?n1z373#lg) format('svg');
+  src: url(fonts/lg.eot?n1z373);
+  src: url(fonts/lg.eot?#iefixn1z373) format('embedded-opentype'),
+    url(fonts/lg.woff?n1z373) format('woff'),
+    url(fonts/lg.ttf?n1z373) format('truetype'),
+    url(fonts/lg.svg?n1z373#lg) format('svg');
   font-weight: 400;
   font-style: normal;
 }
@@ -395,13 +395,13 @@ body:not(.lg-from-hash)
   cursor: pointer;
 }
 .lg-outer .lg-has-vimeo .lg-video-play {
-  background: url(../images/vimeo-play.png) no-repeat;
+  background: url(images/vimeo-play.png) no-repeat;
 }
 .lg-outer .lg-has-vimeo:hover .lg-video-play {
-  background: url(../images/vimeo-play.png) 0 -58px no-repeat;
+  background: url(images/vimeo-play.png) 0 -58px no-repeat;
 }
 .lg-outer .lg-has-html5 .lg-video-play {
-  background: url(../images/video-play.png) no-repeat;
+  background: url(images/video-play.png) no-repeat;
   height: 64px;
   margin-left: -32px;
   margin-top: -32px;
@@ -412,10 +412,10 @@ body:not(.lg-from-hash)
   opacity: 1;
 }
 .lg-outer .lg-has-youtube .lg-video-play {
-  background: url(../images/youtube-play.png) no-repeat;
+  background: url(images/youtube-play.png) no-repeat;
 }
 .lg-outer .lg-has-youtube:hover .lg-video-play {
-  background: url(../images/youtube-play.png) 0 -60px no-repeat;
+  background: url(images/youtube-play.png) 0 -60px no-repeat;
 }
 .lg-outer .lg-video-object {
   width: 100% !important;
@@ -829,7 +829,7 @@ body:not(.lg-from-hash)
   white-space: nowrap;
 }
 .lg-outer .lg-item {
-  background: url(../images/loading.gif) center center no-repeat;
+  background: url(images/loading.gif) center center no-repeat;
   display: none !important;
 }
 .lg-outer.lg-css .lg-current,
